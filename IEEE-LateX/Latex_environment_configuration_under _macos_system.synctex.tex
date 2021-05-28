@@ -19,12 +19,14 @@
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
+%\pagestyle{plain} %设置页脚中的页码
 
 \title{\LaTeX\ Environment Configuration Under MacOS System\\
 %{\footnotesize \textsuperscript{*}Note: Sub-titles are not captured in Xplore and
 %should not be used}
 %\thanks{Identify applicable funding agency here. If none, delete this.}
 }
+
 
 %\author{\IEEEauthorblockN{1\textsuperscript{st} Joker Hook}
 \author{\IEEEauthorblockN{Joker Hook}
@@ -69,6 +71,7 @@ The MacTeX installation package may be a bit big, please be patient and wait for
 \subsection{LaTeX Workshop Installation}
 LaTeX Workshop is a plug-in of VS code, you can download it in the VS Code plug-in store. 
 After downloading LateX Workshop, you need to restart VS Code to ensure that the software uses the plug-in.
+
 
 \section{Set Up VS Code}
 Before you start to configure VS Code, please install it in the order of the tutorials, otherwise unnecessary trouble will occur.
@@ -124,6 +127,21 @@ Now save the files you have changed before,
 then restart VS Code, 
 those modified configurations can now be used normally.
 
+\subsection{Forward and reverse jump of PDF reader}
+For researchers with rich text content, 
+modifying the article may become a problem. 
+Add some codes which show on Fig. 4. on the top of the setting.json file you have opened before to achieve the following two effects:
+\begin{itemize}
+    \item Through ``cmd+option+j" shortcut keys, you can jump to the corresponding position in the PDF document.
+    \item In the PDF document, press the ``cmd+touchpad" shortcut key to jump to the corresponding position in the TeX code.
+\end{itemize}
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.47\textwidth]{pdf_jump.png}}
+    \caption{Codes for cursor}
+    \label{fig4}
+\end{figure}
+
 \section{An Example of Using \LaTeX}
 After configuring the LateX environment, 
 you can start editing the first text. 
@@ -147,12 +165,6 @@ Tap on the icon, and you will find a menu which contains three columns named "CO
 Focus on the "COMMANDS" column, tap the button "Build LaTeX project", and you will find there are so many different recipes.
 Just tap the first recipe: "Recipe:xelatex", then select the "View LaTeX PDF" column, and choose "View in VS Code tab".
 Now you will see the compiled PDF file.
-
-% \begin{figure}[htbp]
-%     \centerline{\includegraphics[width=0.47\textwidth]{COMMANDS.png}}
-%     \caption{The COMMANDS column}
-%     \label{fig4}
-% \end{figure}
 
 
 

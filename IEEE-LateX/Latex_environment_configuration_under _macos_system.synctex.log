@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.26)  28 MAY 2021 09:43
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.26)  28 MAY 2021 16:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -437,30 +437,30 @@ LaTeX Info: Redefining \nameref on input line 21.
 \@outlinefile=\write3
 \openout3 = `"Latex_environment_configuration_under _macos_system.synctex.out"'.
 
-LaTeX Font Info:    Calculating math sizes for size <24> on input line 37.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
+LaTeX Font Info:    Calculating math sizes for size <24> on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 38.
+(Font)              using `TU/ptm/bx/n' instead on input line 40.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 44.
+(Font)              using `TU/ptm/bx/n' instead on input line 46.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/m/sc' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 48.
+(Font)              using `TU/ptm/m/n' instead on input line 50.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 58.
+(hyperref)                removing `\@ifnextchar' on input line 60.
 
 File: show_tools.png Graphic file (type bmp)
 <show_tools.png>
@@ -471,12 +471,14 @@ File: show_tools.png Graphic file (type bmp)
 File: tool_xelatex.png Graphic file (type bmp)
 <tool_xelatex.png>
 
-Underfull \hbox (badness 5711) in paragraph at lines 106--113
+Underfull \hbox (badness 5711) in paragraph at lines 109--116
 \TU/ptm/m/sc/10 and enter the settings.json file again. In latex-
  []
 
 File: recipes_confi.png Graphic file (type bmp)
 <recipes_confi.png>
+File: pdf_jump.png Graphic file (type bmp)
+<pdf_jump.png>
 (./Latex_environment_configuration_under _macos_system.synctex.bbl)
 
 ** Conference Paper **
@@ -497,10 +499,10 @@ Package rerunfilecheck Info: File `"Latex_environment_configuration_under _macos
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 10215 strings out of 476919
- 153277 string characters out of 5821840
- 475974 words of memory out of 5000000
- 30067 multiletter control sequences out of 15000+600000
+ 10222 strings out of 476919
+ 153367 string characters out of 5821840
+ 476289 words of memory out of 5000000
+ 30073 multiletter control sequences out of 15000+600000
  413324 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  71i,8n,77p,360b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
